@@ -10,7 +10,7 @@ First of all, it uses a rotated tablet screen, which has excellent display quali
 
 * You can always use an external monitor to work around and on the display's limitations.
 * If your device shows weird artifacts after booting, suspend and resume.
-* I have no fix for the subtle display flicker that sometimes occurs.
+* I have no fix for the subtle display flicker that sometimes occurs, other than pulling brightness below 20%.
 
 I run Cachy OS with KDE Plasma and plasma-login-manager. Display rotated in KDE Display settings to match the laptop's orientation. (Never used in tablet or "tent" mode.) Then copied Plasma settings to login screen settings using the GUI.
 
