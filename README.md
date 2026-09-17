@@ -4,9 +4,9 @@ The device you scanned this QR code off of is a CHUWI Minibook X U300:
     
 https://de.chuwi.com/products/minibook-x-u300
 
-This is a beautifully fast and not at all toylike machine, which can be a bit annoying to set up.
+This is a beautifully fast and not at all toylike machine, which can be a bit daunting to set up.
 
-First of all, it is using a rotated tablet screen, which has excellent display quality but is a bit of a challenge.
+First of all, it uses a rotated tablet screen, which has excellent display quality but is a bit of a challenge.
 
 * You can always use an external monitor to work around and on the display's limitations.
 * If your device shows weird artifacts after booting, suspend and resume.
