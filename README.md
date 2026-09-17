@@ -14,6 +14,11 @@ First of all, it uses a rotated tablet screen, which has excellent display quali
 
 I run Cachy OS with KDE Plasma and plasma-login-manager. Display rotated in KDE Display settings to match the laptop's orientation. (Never used in tablet or "tent" mode.) Then copied Plasma settings to login screen settings using the GUI.
 
+Screen rotation in firmware setup:
+
+ * Right rotation
+ * No other changes other than Secureboot disabled
+
 Screen rotation in */boot/limine.conf*:
     
 ```
