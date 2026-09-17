@@ -20,7 +20,7 @@ Screen rotation in */boot/limine.conf*:
 interface_rotation: 90
 ```
 
-*cmdline* in */etc/limine.conf* extended:
+*cmdline* in */etc/default/limine* extended:
 
 ```
 video=DSI-1:panel_orientation=right_side_up module_blacklist=xe
