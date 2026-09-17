@@ -26,7 +26,7 @@ interface_rotation: 90
 video=DSI-1:panel_orientation=right_side_up module_blacklist=xe
 ```
 
-The xe driver seems to be in an eternal conflict with the i915 driver if loading of i915 is delayed as follows. This hack in */etc/modprobe.d/i915.conf* seems to fix the artifacts:
+The xe driver seems to be in an eternal conflict with the i915 driver if loading of i915 is delayed as follows. This hack in */etc/modprobe.d/i915.conf* seems to fix the artifacts some of the time:
     
 ```
 install i915 /usr/bin/sleep 5; /usr/bin/modprobe --ignore-install i915
