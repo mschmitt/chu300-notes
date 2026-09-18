@@ -62,3 +62,7 @@ Screen rotation in firmware setup:
 ## Other distributions
 
 All issues occurred identically with Debian 13 "Trixie".
+
+## Other observations
+
+Touchpad is mediocre.
