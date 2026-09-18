@@ -5,6 +5,7 @@ https://de.chuwi.com/products/minibook-x-u300
 This is a beautifully fast and not at all toylike machine. However, it's excellent display is a rotated tablet display, which can make it quite daunting to set up.
 
  * Note that you can always use an external monitor to work around and on the display's limitations.
+ * Initial installation using an external monitor probably is the path of least resistance.
 
 ## GPU driver notes
 
