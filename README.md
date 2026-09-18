@@ -32,6 +32,7 @@ I run Cachy OS with the following key components:
  * KDE Plasma
  * Plasma Login Manager
  * Limine bootloader
+ * Splash / Plymouth active
 
 Thanks to the rotation capability of the bootloader, this installation *never* exposes a rotated screen.
 
