@@ -17,7 +17,7 @@ This is a beautifully fast and not at all toylike machine. However, it's excelle
 install i915 /usr/bin/sleep 5; /usr/bin/modprobe --ignore-install i915
 ```
 
-With this workaround in place, the *xe* driver seems to try to take precedece over i915 sometimes, so it needs to be blocklisted in the kernel command line:
+With this workaround in place, the *xe* driver seems to try to take precedece over *i915* sometimes, so it needs to be blocklisted in the kernel command line:
 
 ```
 module_blacklist=xe
