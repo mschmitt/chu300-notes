@@ -9,7 +9,7 @@ This is a beautifully fast and not at all toylike machine. However, it's excelle
 ## GPU driver notes
 
 * GPU initialization on bootup seems highly unstable, showing a `DSI link not ready` error in the output of `dmesg`.
-* When this happens (it mostly does) and the device shows only weird artifacts after booting, suspend and resume.
+* When this happens (it mostly does) and the device shows only weird artifacts after booting, DO NOT PANIC, but suspend and resume.
 * I have no fix for the subtle display flicker that sometimes occurs, other than to reduce brightness below 20%.
 
 I *tried* to somehow nudge the *i915* driver behaviour by delaying its loading in */etc/modprobe.d/i915.conf*, which *seems* to work *some* of the time:
