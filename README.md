@@ -9,8 +9,8 @@ This is a beautifully fast and not at all toylike machine. However, it's excelle
 ## GPU driver notes
 
 * GPU initialization on bootup seems highly unstable, showing a `DSI link not ready` error in the output of `dmesg`.
-* When this has happened (it mostly does) and the device shows weird artifacts after booting, suspend and resume.
-* I have no fix for the subtle display flicker that sometimes occurs, other than reducing brightness below 20%.
+* When this happens (it mostly does) and the device shows only weird artifacts after booting, suspend and resume.
+* I have no fix for the subtle display flicker that sometimes occurs, other than to reduce brightness below 20%.
 
 I *tried* to somehow nudge the *i915* driver behaviour by delaying its loading in */etc/modprobe.d/i915.conf*, which *seems* to work *some* of the time:
 
@@ -21,13 +21,22 @@ install i915 /usr/bin/sleep 5; /usr/bin/modprobe --ignore-install i915
 With this workaround in place, the *xe* driver seems to try to take precedece over i915 sometimes, so it needs to be blocklisted in the kernel command line:
 
 ```
+module_blacklist=xe
+```
 
-I run Cachy OS with KDE Plasma and plasma-login-manager. Display rotated in KDE Display settings to match the laptop's orientation. (Never used in tablet or "tent" mode.) Then copied Plasma settings to login screen settings using the GUI.
+## Display rotation notes
 
-Screen rotation in firmware setup:
+I run Cachy OS with the following key components:
 
- * Right rotation
- * No other changes other than Secureboot disabled
+ * KDE Plasma
+ * Plasma Login Manager
+ * Limine bootloader
+
+### Desktop
+
+The display was rotated in KDE display settings to match the laptop's orientation. (Never used in tablet or "tent" mode.) Then the plasma display settings were copied login screen settings using the GUI.
+
+### Bootloader / Kernel
 
 Screen rotation in */boot/limine.conf*:
     
@@ -38,23 +47,13 @@ interface_rotation: 90
 *cmdline* in */etc/default/limine* extended:
 
 ```
-video=DSI-1:panel_orientation=right_side_up module_blacklist=xe
+video=DSI-1:panel_orientation=right_side_up 
 ```
+### Firmware
 
-The xe driver seems to be in an eternal conflict with the i915 driver if loading of i915 is delayed as follows. This hack in */etc/modprobe.d/i915.conf* seems to fix the artifacts some of the time:
-    
-```
-install i915 /usr/bin/sleep 5; /usr/bin/modprobe --ignore-install i915
-```
+Screen rotation in firmware setup:
 
-
-
-
-
-
-
-
-
-
+ * Right rotation
+ * No further changes other than Secureboot disabled
 
 
