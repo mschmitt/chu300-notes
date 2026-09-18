@@ -36,7 +36,7 @@ Thanks to the rotation capability of the bootloader, this installation *never* e
 
 ### Desktop
 
-The display was rotated in KDE display settings to match the laptop's orientation. (Never used in tablet or "tent" mode.) Then the plasma display settings were copied login screen settings using the GUI.
+The display was rotated in KDE display settings to match the laptop's orientation. (Never used in tablet or "tent" mode.) Then the plasma display settings were copied to ogin screen settings using the GUI.
 
 ### Bootloader / Kernel
 
