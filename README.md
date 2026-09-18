@@ -33,6 +33,8 @@ I run Cachy OS with the following key components:
  * Plasma Login Manager
  * Limine bootloader
 
+Thanks to the rotation capability of the bootloader, this installation *never* shows a rotated screen.
+
 ### Desktop
 
 The display was rotated in KDE display settings to match the laptop's orientation. (Never used in tablet or "tent" mode.) Then the plasma display settings were copied login screen settings using the GUI.
