@@ -33,7 +33,7 @@ I run Cachy OS with the following key components:
  * Plasma Login Manager
  * Limine bootloader
 
-Thanks to the rotation capability of the bootloader, this installation *never* shows a rotated screen.
+Thanks to the rotation capability of the bootloader, this installation *never* exposes a rotated screen.
 
 ### Desktop
 
@@ -57,6 +57,7 @@ video=DSI-1:panel_orientation=right_side_up
 Screen rotation in firmware setup:
 
  * Right rotation
+ * Quiet boot disabled
  * No further changes other than Secureboot disabled
 
 ## Other distributions
