@@ -1,5 +1,7 @@
 # Notes on the Chuwi Minibook X U300
 
+**ATTENTION: The USB-C charger shipping with the Chuwi book is a non-compliant 12 V device and WILL wreck regular USB-C devices!**
+
 https://de.chuwi.com/products/minibook-x-u300
 
 This is a beautifully fast and not at all toylike machine. However, it's excellent display is a rotated tablet display, which can make it quite daunting to set up.
