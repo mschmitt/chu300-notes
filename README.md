@@ -1,6 +1,6 @@
 # Notes on the Chuwi Minibook X U300
 
-**ATTENTION: The USB-C charger shipping with the Chuwi book is a non-compliant 12 V device and WILL wreck regular USB-C devices, ASK ME HOW I KNOW!**
+**ATTENTION: The USB-C charger shipping with the Chuwi book is a non-compliant 12 V power supply and WILL wreck regular USB-C devices, ASK ME HOW I KNOW!**
 
 (The notebook charges fine on compliant USB-C chargers. No idea what the hell is wrong with people.)
 
