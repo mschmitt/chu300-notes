@@ -6,6 +6,8 @@
 
 The notebook charges fine on compliant USB-C chargers from Apple and Lenovo. No idea what the hell is wrong with people.
 
+![Screenshot from a game: "Clipboard of grudges - gain XP when you take damage"](images/vlcsnap-2026-09-21-09h59m55s417.png)
+
 ***
 
 https://de.chuwi.com/products/minibook-x-u300
