@@ -4,7 +4,9 @@
 
 ## ATTENTION
 
-**The USB-C charger shipping with the Chuwi book is a non-compliant non-negotiating fixed 12 V power supply. It WILL wreck regular USB-C devices and DID kill two USB gadgets of mine!**
+**The USB-C charger shipping with the Chuwi book is a non-compliant non-negotiating fixed 12 V power supply.**
+
+**It WILL wreck regular USB-C devices and DID kill two USB gadgets of mine!**
 
 The notebook charges fine on compliant USB-C chargers from Apple and Lenovo. No idea what the hell is wrong with people.
 
